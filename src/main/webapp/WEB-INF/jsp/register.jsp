@@ -20,7 +20,7 @@
 				<input type="password" name="pw" placeholder="비밀번호" id="pw"><br>
 				<input type="password" name="pw2" placeholder="비밀번호 확인 " id="pw2" onchange="pwCheck()">
 				<label id="label">(*필수 체크)</label><br>
-				<input type="text" name="name" placeholder="이름" ><br>
+				<input type="text" name="fullName" placeholder="이름" ><br>
 				<input type="text" name="addr" placeholder="주소" ><br>
 				<input type="text" name="tel" placeholder="전화번호" ><br>
 				<input type="button" value="회원가입" onclick="allCheck()"><br>
