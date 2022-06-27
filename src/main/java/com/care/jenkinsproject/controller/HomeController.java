@@ -50,6 +50,7 @@ public class HomeController {
 	}
 	
 	@RequestMapping("logout")
+	
 	public String logout() {
 		session.invalidate();
 		return "redirect:/";
