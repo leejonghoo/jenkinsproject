@@ -13,17 +13,19 @@
 	<div align="center" >
 		<table border=1 >
 			<tr>
-				<th>회원번호</th>
 				<th>아이디</th>
 				<th>비밀번호</th>
 				<th>이름</th>
+				<th>주소</th>
+				<th>전화번호</th>
 			</tr>
 			<c:forEach var="member" items="${members }">
 				<tr>
-					<td>${member.num }</td>
 					<td>${member.id }</td>
 					<td>${member.pw }</td>
-					<td>${member.name }</td>
+					<td>${member.fullName }</td>
+					<td>${member.addr }</td>
+					<td>${member.tel }</td>
 				</tr>
 			</c:forEach>
 		</table>
