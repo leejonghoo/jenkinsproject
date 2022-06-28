@@ -10,7 +10,6 @@ public class JenkinsprojectApplication extends SpringBootServletInitializer{
  
 	@Override
 	protected SpringApplicationBuilder createSpringApplicationBuilder() {
-		
 		return super.createSpringApplicationBuilder();
 	}
 	
